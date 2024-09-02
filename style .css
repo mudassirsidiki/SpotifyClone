@@ -1,0 +1,757 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    overflow: hidden;
+}
+
+
+
+.container {
+    display: flex;
+    background-color: black;
+}
+
+.left1 {
+    width: 20vw;
+    height: 20vh;
+    border-radius: 7px;
+    margin: 5px 5px;
+    padding: 20px;
+    background-color: #121212;
+}
+
+.left2 {
+    width: 20vw;
+    height: auto;
+    border-radius: 7px;
+    margin: 8px 5px;
+    padding: 20px;
+    background-color: #121212;
+    height: 76vh;
+}
+
+.right {
+    width: 80vw;
+    margin: 5px;
+    color: aliceblue;
+    background-color: #121212;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.home ul li {
+    display: flex;
+    list-style: none;
+    width: 27px;
+    gap: 15px;
+}
+
+
+.homesvg {
+    position: relative;
+    top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.searchsvg {
+    position: relative;
+    top: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+/* ********************************************************************** */
+/* HOW TO CONVERT BLACK IMAGES INTO WHITE IMAGES (SIMPLY INVERT THE IMAGE */
+/* ********************************************************************** */
+.invert {
+    filter: invert(1);
+}
+
+.library {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.library img {
+    width: 25px;
+}
+
+.urlib {
+    font-size: 17px;
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+    color: #b3b3b3;
+}
+
+.box1 {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1f1f1f;
+    color: #b3b3b3;
+    margin: 25px -3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px
+}
+
+.smalltext {
+    margin: 8px 0px;
+    background-color: #1f1f1f;
+    color: #b3b3b3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px
+}
+
+.btn1 {
+    padding: 10px;
+    border-radius: 18px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 8px;
+}
+
+.notice {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0px;
+    display: flex;
+    position: relative;
+    top: 24px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.a {
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.b {
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.c {
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.d {
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.e {
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.f {
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+/* ********************************************************************************************* */
+/* THIS IS HOW I AM GOING TO MAKE THE NAV BAR OF THIS WEBSITE CONTAINING SIGNUP AND LOGIN OPTION */
+/* ********************************************************************************************* */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: #0a0808;
+}
+
+.SP-head {
+    font-weight: 700;
+    font-size: 35px;
+    padding: 20px 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white
+}
+
+.cardcontainer1 {
+    display: flex;
+    gap: 20px;
+}
+
+.cardcontainer2 {
+    display: flex;
+    gap: 20px;
+}
+
+/* ********************* */
+/* WPRKING FOR CARD 1 */
+/* ********************* */
+.card1 {
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(71, 66, 66);
+    padding: 10px;
+    margin: 5px 10px;
+    width: 160px;
+    height: 215px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-overflow: ellipsis
+}
+
+.card1 img {
+    width: 159px;
+    border-radius: 5px;
+}
+
+.card1 h2 {
+    color: white;
+    font-size: 16px;
+    padding: 2px;
+}
+
+.card1 p {
+    font-size: 10px;
+    color: #b3b3b3;
+    padding: 3px 1px;
+}
+
+/* ********************* */
+/* WPRKING FOR CARD 2 */
+/* ********************* */
+.card2 {
+    border-radius: 10px;
+    background-color: rgb(71, 66, 66);
+    padding: 10px;
+    margin: 5px 10px;
+    width: 160px;
+    height: 215px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-overflow: ellipsis
+}
+
+.card2 img {
+    width: 159px;
+    border-radius: 5px;
+}
+
+.card2 h2 {
+    color: white;
+    font-size: 16px;
+    padding: 2px;
+}
+
+.card2 p {
+    font-size: 10px;
+    color: #b3b3b3;
+    padding: 3px 1px;
+}
+
+/* ********************* */
+/* WPRKING FOR CARD 3 */
+/* ********************* */
+.card3 {
+    border-radius: 10px;
+    background-color: rgb(71, 66, 66);
+    padding: 10px;
+    margin: 5px 10px;
+    width: 160px;
+    height: 215px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-overflow: ellipsis
+}
+
+.card3 img {
+    width: 159px;
+    border-radius: 5px;
+}
+
+.card3 h2 {
+    color: white;
+    font-size: 16px;
+    padding: 2px;
+}
+
+.card3 p {
+    font-size: 10px;
+    color: #b3b3b3;
+    padding: 3px 1px;
+}
+
+/* ********************* */
+/* WPRKING FOR CARD 4 */
+/* ********************* */
+.card4 {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(71, 66, 66);
+    margin: 5px 10px;
+    width: 160px;
+    height: 215px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-overflow: ellipsis
+}
+
+.card4 img {
+    width: 159px;
+    border-radius: 5px;
+}
+
+.card4 h2 {
+    color: white;
+    font-size: 16px;
+    padding: 2px;
+}
+
+.card4 p {
+    font-size: 10px;
+    color: #b3b3b3;
+    padding: 3px 1px;
+}
+
+/* ********************* */
+/* WPRKING FOR CARD 5 */
+/* ********************* */
+.card5 {
+    border-radius: 10px;
+    background-color: rgb(71, 66, 66);
+    padding: 10px;
+    margin: 5px 10px;
+    width: 160px;
+    height: 215px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-overflow: ellipsis
+}
+
+.card5 img {
+    width: 159px;
+    border-radius: 5px;
+}
+
+.card5 h2 {
+    color: white;
+    font-size: 16px;
+    padding: 2px;
+}
+
+.card5 p {
+    font-size: 10px;
+    color: #b3b3b3;
+    padding: 3px 1px;
+}
+
+/* ********************* */
+/* WPRKING FOR CARD 6 */
+/* ********************* */
+.card6 {
+    border-radius: 10px;
+    background-color: rgb(71, 66, 66);
+    padding: 10px;
+    margin: 5px 10px;
+    width: 160px;
+    height: 215px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-overflow: ellipsis
+}
+
+.card6 img {
+    width: 159px;
+    border-radius: 5px;
+}
+
+.card6 h2 {
+    color: white;
+    font-size: 16px;
+    padding: 2px;
+}
+
+.card6 p {
+    font-size: 10px;
+    color: #b3b3b3;
+    padding: 3px 1px;
+}
+
+/* ********************* */
+/* WPRKING FOR CARD 7 */
+/* ********************* */
+.card7 {
+    border-radius: 10px;
+    background-color: rgb(71, 66, 66);
+    padding: 10px;
+    margin: 5px 10px;
+    width: 160px;
+    height: 215px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-overflow: ellipsis
+}
+
+.card7 img {
+    width: 159px;
+    border-radius: 5px;
+}
+
+.card7 h2 {
+    color: white;
+    font-size: 16px;
+    padding: 2px;
+}
+
+.card7 p {
+    font-size: 10px;
+    color: #b3b3b3;
+    padding: 3px 1px;
+}
+
+/* ***************************************** */
+/* HERE I AM WORKING ON THE SIGN UP BUTTON */
+/* ***************************************** */
+
+.signupbtn {
+    background-color: #0a0808;
+    color: #b3b3b3;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.signupbtn:hover {
+    color: rgb(255, 255, 255);
+}
+
+/* ***************************************** */
+/* HERE I AM WORKING ON THE LOG IN BUTTON */
+/* ***************************************** */
+
+.loginbtn {
+    background-color: white;
+    color: #9f9292;
+    font-weight: bold;
+    border-radius: 22px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.loginbtn:hover {
+    color: black;
+    padding: 10px 13px;
+}
+
+/* ***************************************** */
+/* HERE I AM WORKING ON THE PLAYBAR */
+/* ***************************************** */
+.playbar {
+    width: 70vw;
+    border-radius: 30px;
+    background-color: #3d5617;
+    padding: 10px;
+    margin: 18px;
+    position: absolute;
+    bottom: 1%;
+}
+
+.songbuttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.song-container {
+    height: 360px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 15px 0px;
+}
+
+
+/* ***************************************** */
+/* HERE I AM WORKING ON THE CARDS IN THE LEFT BAR */
+/* ***************************************** */
+
+.song-card {
+    display: flex;
+    background-color: #0a0808;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    border: 2px solid rgb(94, 83, 83);
+    border-radius: 10px;
+    margin: 8px 0px;
+    padding: 18px;
+    align-items: center;
+    box-shadow: 3px 3px 15px 3px #888;
+    justify-content: space-between;
+    width: 295px;
+}
+
+.songname {
+    font-size: 17px;
+    font-family: cursive;
+    color: #ffffff;
+    width: 105px;
+}
+
+.artist {
+    font-size: 16px;
+    color: #b3b3b3;
+}
+
+.playnow {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.playbindu {
+    position: relative;
+    right: 0%;
+}
+
+
+/* ************************************************************************************************************************************************************ */
+/* THE PLACEMENT OF GREEN PLAY BUTTON WAS NOT EASY. TO MAKE IT EASY CARD1 KI POSITION RELATIVE RAKHO AUR BUTOON KI POSITION ABSOLUTE RAKH K TOP BOTTOM RIGHT LEFT SET KRLO */
+/* ************************************************************************************************************************************************************ */
+
+.play-button {
+    position: absolute;
+    top: 115px;
+    right: 15px;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+    /* Width of the scrollbar */
+    background-color: #333;
+    /* Background color of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555;
+    /* Color of the draggable part of the scrollbar */
+    border-radius: 6px;
+    /* Rounded corners for the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #777;
+    /* Color when hovering over the scrollbar thumb */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #222;
+    /* Background color of the track */
+}
+
+#audio-player {
+    width: 60vw;
+    position: absolute;
+    bottom: 2.5%;
+    /* margin: 2px 40px; */
+}
+
+
+
+
+.audio {
+    width: 95%;
+    /* Ensures the audio player takes up the full width of its container */
+    max-width: 450px;
+    /* Sets a maximum width to prevent the player from getting too large */
+    margin: 20px auto;
+    /* Centers the player with some margin on top and bottom */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    /* Background color of the audio container */
+    z-index: 1;
+}
+
+audio {
+    width: 95%;
+    /* Ensures the audio controls take up the full width of the container */
+    height: 50%;
+    /* Adjusts the height of the controls */
+    outline: none;
+    /* Removes the default outline */
+    border-radius: 5px;
+    /* Slight rounding of the player */
+    z-index: 1;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #27302a;
+    /* Background color of the controls for WebKit browsers */
+    border-radius: 5px;
+    /* Rounded corners */
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-volume-slider,
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    filter: brightness(0) invert(1);
+    /* Ensures the controls are visible on dark backgrounds */
+}
+
+.hamburger {
+    display: none;
+}
+
+.cancel{
+    display: none;
+}
+
+.footer{
+    height: 100px;
+    width: 70vw;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 50px;
+    border: 2px solid #adafae;
+    /* border-radius: 50px; */
+    /* height: 13vh; */
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    bottom: 0%;
+    box-shadow: 3px 3px 15px 3px #888;
+}
+
+
+
+
+
+/* ****************************** */
+/* RESPOSIVENESS OF THE WEBSITE */
+/* ****************************** */
+
+
+@media (max-width: 1500px) {
+
+    .left {
+        background-color:black;
+        position: absolute;
+        left: -150%;
+        transition: all 0.4s;
+        z-index: 1;
+        width: 390px;
+        z-index: 999;
+    }
+
+    .left1 {
+        width: 345px;
+        z-index: 999;
+    }
+
+
+    .left2 {
+        width: 345px;
+        z-index: 999;
+    }
+
+
+    /* HERE MEIN NH CHATA THA K HAMBURGER 1500PX SE ZYADA P DIKHAY TW MEDIA QUEREY SE PEHEL DISPLAY=NONE AND MEDIA QUERY MEIN DISPLAY=BLOCK */
+    .right {
+        width: 100vw;
+
+        .hamburger {
+            display: block;
+        }
+    }
+
+    .song-card {
+        width: 270px;
+    }
+
+    .cancel{
+        display: block;
+        position: absolute;
+        right: 4%;
+    }
+    
+    .footer{
+        width: 90vw;
+        margin: 19px 25px;
+        height: 100px;
+    }
+
+    #audio-player {
+        width: 80vw;
+        position: absolute;
+        bottom: 3.5%;
+    }
+
+
+}
+
+
+
+
+.cardcontainer1, .cardcontainer2 {
+    display: flex;
+    justify-content: space-evenly; /* Ensures spacing between cards */
+    flex-wrap: wrap; /* Ensures that the cards wrap to the next line when necessary */
+    padding: 25px;
+}
+
+.cardcontainer1 .card, .cardcontainer2 .card {
+    width: 30%; /* Each card takes up 30% of the container's width */
+}
+
+@media screen and (max-width: 690px) {
+    .cardcontainer1, .cardcontainer2 {
+        flex-direction: column; /* Stacks the cards vertically */
+        align-items: center; /* Centers the cards */
+    }
+
+    .cardcontainer1 .card, .cardcontainer2 .card {
+        width: 100%; /* Each card takes up the full width on small screens */
+        margin-bottom: 20px; /* Adds some space between the cards */
+    }
+}
+
+
+
+
+@media (max-width: 600px) {
+
+    .footer{
+        width: 83vw;
+        margin: 19px 25px;
+        height: 100px;
+    }
+
+    #audio-player {
+        width: 75vw;
+        position: absolute;
+        bottom: 3.5%;
+    }
+
+}
